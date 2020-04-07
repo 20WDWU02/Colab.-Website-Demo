@@ -591,6 +591,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 10000;
 }
 
 .navContainer {
@@ -692,6 +693,7 @@ img {
 @media screen and (min-width: 900px) {
   .banner {
     height: 90vh;
+    margin-bottom: 13vh;
   }
   .banner .container {
     padding: 0 10px;
