@@ -42,6 +42,11 @@ img{
     font-weight: bold;
 }
 
+.subHeading{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 .button{
     display: inline-block;
     background-color: grey;
@@ -62,5 +67,10 @@ img{
     padding: 10px 50px;
 }
 
+.textCenter{
+    text-align: center;
+}
+
 @import 'nav';
 @import 'header';
+@import 'altSections';

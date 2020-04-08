@@ -564,6 +564,11 @@ img {
   font-weight: bold;
 }
 
+.subHeading {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 .button {
   display: inline-block;
   background-color: grey;
@@ -582,6 +587,10 @@ img {
 .buttonLarge {
   font-size: 1.5em;
   padding: 10px 50px;
+}
+
+.textCenter {
+  text-align: center;
 }
 
 .navbar {
@@ -710,6 +719,37 @@ img {
 
   .bannerImage {
     margin: 0;
+  }
+}
+.imageCol {
+  padding: 2em;
+}
+
+.textCol {
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .altRow {
+    margin: 6em 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .altRow:nth-child(odd) .imageCol {
+    order: 1;
+  }
+  .altRow:nth-child(odd) .textCol {
+    order: 2;
+    text-align: left;
+  }
+  .altRow:nth-child(even) .imageCol {
+    order: 2;
+    text-align: right;
+  }
+  .altRow:nth-child(even) .textCol {
+    order: 1;
+    text-align: right;
   }
 }
 
