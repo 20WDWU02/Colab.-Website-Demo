@@ -8,7 +8,6 @@
 
 @media screen and (min-width: $mdWidth){
     .altRow{
-        margin: 6em 0;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -31,6 +30,25 @@
                 order: 1;
                 text-align: right;
             }
+        }
+    }
+
+}
+
+@media screen and (min-width: $lgWidth){
+
+    .altRow{
+        margin: 6em 0;
+    }
+
+    .imageCol{
+        padding: 0 10em;
+    }
+
+    .textCol{
+        padding: 0 5em;
+        p{
+            margin: 1em 0;
         }
     }
 }
